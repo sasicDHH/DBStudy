@@ -7,17 +7,10 @@
 [学习指南]
 ---
 
-    姓名|技能|排行
-    --|:--:|--:
-    刘备|哭|大哥
-    关羽|打|二哥
-    张飞|骂|三弟
-
-1.  《mysql必知必会》
-2.  [runoob mysql](https://www.runoob.com/mysql/mysql-install.html)
-
-姓名|技能|排行
+教程类型|教程|状态
 --|:--:|--:
-刘备|哭|大哥
-关羽|打|二哥
-张飞|骂|三弟
+书籍|《mysql必知必会》|正在进行
+手册|[runoob mysql](https://www.runoob.com/mysql/mysql-install.html)|未进行
+
+
+
