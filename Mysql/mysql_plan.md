@@ -10,6 +10,7 @@
 教程类型|教程|状态
 --|:--:|--:
 书籍|《mysql必知必会》|正在进行
+|《高性能MySQL》|
 手册|[runoob mysql](https://www.runoob.com/mysql/mysql-install.html)|未进行
 
 
