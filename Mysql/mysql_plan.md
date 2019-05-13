@@ -24,6 +24,13 @@
 
 [联系我]
 ---
-群
-![group](https://github.com/sasicDHH/DBStudy/blob/master/source/img/group.jpg){:height="50%" width="50%"}
-
+<p align="center">
+	<img src="https://github.com/sasicDHH/DBStudy/raw/master/source/img/group.jpg"  width="250">
+	<p align="center">
+		<em>群</em>
+	</p>
+	<img src="https://github.com/sasicDHH/DBStudy/blob/master/source/img/group_own.png"  width="250">
+	<p align="center">
+		<em>群主</em>
+	</p>
+</p>
