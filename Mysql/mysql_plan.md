@@ -25,6 +25,6 @@
 [联系我]
 ---
 <p align="center" class='half'>
-	<img src="https://github.com/sasicDHH/DBStudy/raw/master/source/img/group.jpg"  width="250">
-	<img src="https://github.com/sasicDHH/DBStudy/blob/master/source/img/group_own.png"  width="250">
+	<img src="https://github.com/sasicDHH/DBStudy/raw/master/source/img/group.jpg"  height="200">
+	<img src="https://github.com/sasicDHH/DBStudy/blob/master/source/img/group_own.png"  height="200">
 </p>
