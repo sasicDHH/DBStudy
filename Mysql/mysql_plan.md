@@ -24,5 +24,5 @@
 
 [联系我]
 群
-![group](https://github.com/sasicDHH/DBStudy/blob/master/source/img/group.jpg)
+![group](https://github.com/sasicDHH/DBStudy/blob/master/source/img/group.jpg/w/240)
 
