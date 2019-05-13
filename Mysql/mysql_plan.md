@@ -14,6 +14,6 @@
 手册|[runoob mysql](https://www.runoob.com/mysql/mysql-install.html)|NO|1
 -|《高性能MySQL》|NO|3
 
-
+[打卡地点](https://shimo.im/docs/sAWZrUycslIrOaXi)
 
 
