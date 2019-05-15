@@ -8,19 +8,19 @@
 ########################
 # Create customers table
 ########################
-CREATE TABLE customers
+CREATE TABLE if not exists customers
 (
-  cust_id      int       NOT NULL AUTO_INCREMENT,
-  cust_name    char(50)  NOT NULL ,
-  cust_address char(50)  NULL ,
+  cust_id      int       NOT NULL AUTO_INCREMENT comment '客户ID',
+  cust_name    char(50)  NOT NULL comment '客户姓名',
+  cust_address char(50)  NULL default 'street 100',
   cust_city    char(50)  NULL ,
   cust_state   char(5)   NULL ,
-  cust_zip     char(10)  NULL ,
+  cust_zip     decimal(8,2)  NULL ,
   cust_country char(50)  NULL ,
   cust_contact char(50)  NULL ,
   cust_email   char(255) NULL ,
   PRIMARY KEY (cust_id)
-) ENGINE=InnoDB;
+) ENGINE=InnoDB comment '客户表';
 
 #########################
 # Create orderitems table
@@ -41,9 +41,9 @@ CREATE TABLE orderitems
 #####################
 CREATE TABLE orders
 (
-  order_num  int      NOT NULL AUTO_INCREMENT,
-  order_date datetime NOT NULL ,
-  cust_id    int      NOT NULL ,
+  order_num  int      NOT NULL AUTO_INCREMENT comment '订单号',
+  order_date datetime NOT NULL comment '订单日期',
+  cust_id    int      NOT NULL comment '客户ID',
   PRIMARY KEY (order_num)
 ) ENGINE=InnoDB;
 
@@ -73,7 +73,7 @@ CREATE TABLE vendors
   vend_zip     char(10) NULL ,
   vend_country char(50) NULL ,
   PRIMARY KEY (vend_id)
-) ENGINE=InnoDB;
+) ENGINE=InnoDB comment '供应商表';
 
 ###########################
 # Create productnotes table
