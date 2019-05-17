@@ -28,12 +28,12 @@ CREATE TABLE if not exists customers
 CREATE TABLE orderitems
 (
   order_num  int          NOT NULL ,
-  order_item int          NOT NULL ,
+  order_item int          NOT NULL comment '订单物品号',
   prod_id    char(10)     NOT NULL ,
-  quantity   int          NOT NULL ,
-  item_price decimal(8,2) NOT NULL ,
+  quantity   int          NOT NULL comment '物品数量',
+  item_price decimal(8,2) NOT NULL comment '物品价格',
   PRIMARY KEY (order_num, order_item)
-) ENGINE=InnoDB;
+) ENGINE=InnoDB comment '订购的各项物品' ;
 
 
 #####################
@@ -45,7 +45,7 @@ CREATE TABLE orders
   order_date datetime NOT NULL comment '订单日期',
   cust_id    int      NOT NULL comment '客户ID',
   PRIMARY KEY (order_num)
-) ENGINE=InnoDB;
+) ENGINE=InnoDB comment '订单表';
 
 #######################
 # Create products table
@@ -58,7 +58,7 @@ CREATE TABLE products
   prod_price decimal(8,2)  NOT NULL ,
   prod_desc  text          NULL ,
   PRIMARY KEY(prod_id)
-) ENGINE=InnoDB;
+) ENGINE=InnoDB comment '产品表';
 
 ######################
 # Create vendors table
@@ -70,7 +70,7 @@ CREATE TABLE vendors
   vend_address char(50) NULL ,
   vend_city    char(50) NULL ,
   vend_state   char(5)  NULL ,
-  vend_zip     char(10) NULL ,
+  vend_zip     char(10) NULL comment '邮政编码',
   vend_country char(50) NULL ,
   PRIMARY KEY (vend_id)
 ) ENGINE=InnoDB comment '供应商表';
@@ -86,13 +86,17 @@ CREATE TABLE productnotes
   note_text  text          NULL ,
   PRIMARY KEY(note_id),
   FULLTEXT(note_text)
-) ENGINE=MyISAM;
+) ENGINE=MyISAM comment '与特定产品有关的注释' ;
 
 
 #####################
 # Define foreign keys
 #####################
-ALTER TABLE orderitems ADD CONSTRAINT fk_orderitems_orders FOREIGN KEY (order_num) REFERENCES orders (order_num);
-ALTER TABLE orderitems ADD CONSTRAINT fk_orderitems_products FOREIGN KEY (prod_id) REFERENCES products (prod_id);
-ALTER TABLE orders ADD CONSTRAINT fk_orders_customers FOREIGN KEY (cust_id) REFERENCES customers (cust_id);
-ALTER TABLE products ADD CONSTRAINT fk_products_vendors FOREIGN KEY (vend_id) REFERENCES vendors (vend_id);
+ALTER TABLE orderitems ADD CONSTRAINT fk_orderitems_orders
+    FOREIGN KEY (order_num) REFERENCES orders (order_num);
+ALTER TABLE orderitems ADD CONSTRAINT fk_orderitems_products
+    FOREIGN KEY (prod_id) REFERENCES products (prod_id);
+ALTER TABLE orders ADD CONSTRAINT fk_orders_customers
+    FOREIGN KEY (cust_id) REFERENCES customers (cust_id);
+ALTER TABLE products ADD CONSTRAINT fk_products_vendors
+    FOREIGN KEY (vend_id) REFERENCES vendors (vend_id);
