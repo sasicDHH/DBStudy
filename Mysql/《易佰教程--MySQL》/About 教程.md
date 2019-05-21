@@ -1,6 +1,7 @@
 [内容]
 ---
-  1. [地址]（https://www.yiibai.com/mysql/how-to-load-sample-database-into-mysql-database-server.html）
+  1. [地址](https://www.yiibai.com/mysql)
+  
   2. 
   
  [知识点]
