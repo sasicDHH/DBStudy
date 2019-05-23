@@ -5,7 +5,7 @@
 
 阶段|时间|第一目标|第二目标|状态|评价
 :--:|:--:|:--:|:--:|:--:|:--
-一|5/21~26|完成页|-|[连接表](https://www.yiibai.com/mysql/basic-mysql.html)|
+一|5/21~26|完成页|-|[连接表](https://www.yiibai.com/mysql/basic-mysql.html)|需要闲逸心态
 
     
 [Finish]
