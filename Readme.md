@@ -3,19 +3,14 @@
    1. [datawhale计划](https://github.com/datawhalechina/MySql/blob/master/MySQL%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9/MySQL%E4%BB%BB%E5%8A%A11%20-%203%E5%A4%A9.md)  [打卡地点](https://shimo.im/docs/e5zSoMFYTwgeno9p)
    2. LS计划2期《[易佰教程-MySQL](https://www.yiibai.com/mysql)》
 
-阶段|时间|第一目标|第二目标|状态|备注
+阶段|时间|第一目标|第二目标|状态|评价
 :--:|:--:|:--:|:--:|:--:|:--
-一|5/21~26|完成页|-|onging|--
+一|5/21~26|完成页|-|[连接表](https://www.yiibai.com/mysql/basic-mysql.html)|
 
     
 [Finish]
 ---
-   1. LS计划1期《MySQL必知必会》
-
-阶段|时间|第一目标|第二目标|状态|备注
-:--:|:--:|:--:|:--:|:--:|:--
-一|5/10~13|第五章|-|end|finish
-二|5/13~19|第十章|第十五章|finish|目前到30章
+   1. 《MySQL必知必会》LS计划1期
     
 
 
