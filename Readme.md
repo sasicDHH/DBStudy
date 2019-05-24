@@ -2,6 +2,7 @@
 ---
    1. [datawhale计划](https://github.com/datawhalechina/MySql/blob/master/MySQL%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9/MySQL%E4%BB%BB%E5%8A%A11%20-%203%E5%A4%A9.md)  [打卡地点](https://shimo.im/docs/e5zSoMFYTwgeno9p)
    2. LS计划2期
+
 教程|状态|等级
 :--:|--:|--:
 《[易佰教程-MySQL](https://www.yiibai.com/mysql)》|-|-
@@ -16,6 +17,7 @@
 [Finish]
 ---
    1. 《MySQL必知必会》LS计划1期
+   2.   leetcode 数据库--简单
     
 
 
