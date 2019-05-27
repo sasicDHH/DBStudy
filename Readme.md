@@ -31,6 +31,8 @@
 书|《SQL必知必会》|onging|1
 手册|[runoob mysql](https://www.runoob.com/mysql/mysql-install.html)|NO|1
 -|《高性能MySQL》|NO|3
+-|《高可用MySQL》|NO|3
+-|《MySQL技术内幕:InnoDB存储引擎》|NO|3
 
 
 [联系我]
