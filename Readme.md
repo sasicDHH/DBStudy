@@ -7,6 +7,7 @@
 :--:|--:|--:
 《[易佰教程-MySQL](https://www.yiibai.com/mysql)》|-|-
 [leetcode](https://leetcode-cn.com/problemset/database/?difficulty=%E7%AE%80%E5%8D%95)|-|-
+[牛客网](https://www.nowcoder.com/ta/sql)|-|-
 
 
 阶段|时间|第一目标|第二目标|状态|评价
